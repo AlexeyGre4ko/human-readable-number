@@ -118,7 +118,7 @@ it('Should return \'eighteen\' when 18 given', () => {
 });
 
 it('Should return \'nineteen\' when 19 given', () => {
-  const readable = toReadable(19);
+    const readable = toReadable(19);
 
   assert.equal(readable, 'nineteen');
 });
